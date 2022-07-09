@@ -1,0 +1,80 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background: url(bg.jpg) no-repeat;
+   background-size: cover; 
+
+}
+.login-box{
+  width:300px; 
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: aliceblue;
+  
+
+}
+
+.login-box h1{
+    float:left;
+    font-size:60px;
+    border-bottom: 12px solid royalblue;
+    margin-bottom: 30px;
+    padding: 13px 0;
+}
+
+.textbox{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    font-size: 38px;
+    padding: 8px 0;
+    margin: 8px 0;
+
+    border-bottom:5px solid green ;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+  }
+.textbox i{
+    width: 26;
+    float: left;
+    text-align: center;
+    background:none;
+    color:aquamarine;
+    font-size: 18px;
+    width: 80%;
+    float:left;
+    margin:0 10px;
+
+}
+
+.login-box button{
+    width:100%;
+   
+
+padding :5px;
+font-size: 18px;
+cursor: pointer;
+margin: 12px 0;
+border:2px solid green;
+
+background:none;
+
+
+}
+
